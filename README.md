@@ -1,14 +1,12 @@
 # ubuntu-in-termux
 
-[![DISCORD](https://img.shields.io/badge/Chat-On%20Discord-738BD7.svg?style=for-the-badge)](https://discord.gg/Xaqkdeh)
-
 ## What's This?
 
 This is a script that allows you to install Ubuntu in your termux application without a rooted device
 
 ## Updates
 
-**• Updated to ubuntu 20.04**
+**• Updated to ubuntu 21.10**
 
 ## Important
 
@@ -28,3 +26,10 @@ This is a script that allows you to install Ubuntu in your termux application wi
 8. Give execution permission: `chmod +x ubuntu.sh`
 9. Run the script: `./ubuntu.sh -y`
 10. Now just start ubuntu: `./startubuntu.sh`
+
+## Fix DPKG error **Sub-process /usr/bin/dpkg returned an error code (1)**
+
+1. Write on Ubuntu terminal `rm -rf /var/lib/dpkg/info/*.*`
+2. after `apt-get clean`
+3. and `apt-get install -f`
+4. Now just give a `apt-get update` and done error is fixed
