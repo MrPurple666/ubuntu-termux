@@ -33,3 +33,6 @@ This is a script that allows you to install Ubuntu in your termux application wi
 2. after `apt-get clean`
 3. and `apt-get install -f`
 4. Now just give a `apt-get update` and done error is fixed
+
+## Tips
+1. Make an automation via .bashrc to Fix DPKG error
