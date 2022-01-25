@@ -4,7 +4,7 @@ time1="$( date +"%r" )"
 
 install1 () {
 directory=ubuntu-fs
-UBUNTU_VERSION=21.10
+UBUNTU_VERSION=jammy
 if [ -d "$directory" ];then
 first=1
 printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;227m[WARNING]:\e[0m \x1b[38;5;87m Skipping the download and the extraction\n"
@@ -35,7 +35,7 @@ exit 1
 
 esac
 
-wget http://cdimage.ubuntu.com/ubuntu-base/releases/${UBUNTU_VERSION}/release/ubuntu-base-${UBUNTU_VERSION}-base-${ARCHITECTURE}.tar.gz -q -O ubuntu.tar.gz 
+wget http://cdimage.ubuntu.com/ubuntu-base/daily/current/${UBUNTU_VERSION}-base-${ARCHITECTURE}.tar.gz -q -O ubuntu.tar.gz 
 printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Download complete!\n"
 
 fi
