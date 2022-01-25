@@ -1,6 +1,6 @@
 # ubuntu-in-termux
 
-![Neofetch](https://github.com/MrPurple666/ubuntu-termux/blob/developement/images/22.04.png)
+![Neofetch](https://raw.githubusercontent.com/MrPurple666/ubuntu-termux/development/images/22.04.png)
 
 ## What's This?
 
