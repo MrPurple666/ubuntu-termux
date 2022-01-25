@@ -8,7 +8,9 @@ This is a script that allows you to install Ubuntu in your termux application wi
 
 ## Updates
 
-**• Updated to ubuntu 21.04**
+**• Updated to ubuntu 21.10**
+
+**• If you are looking for development versions see `developement` branch**
 
 ## Important
 
@@ -22,7 +24,7 @@ This is a script that allows you to install Ubuntu in your termux application wi
 4. Install git: `apt-get install git -y`
 5. Go to HOME folder: `cd ~`
 6. Download script: `git clone https://github.com/MrPurple666/ubuntu-termux.git`
-7. Go to script folder: `cd ubuntu-in-termux`
+7. Go to script folder: `cd ubuntu-termux`
 8. Give execution permission: `chmod +x ubuntu.sh`
 9. Run the script: `./ubuntu.sh -y`
 10. Now just start ubuntu: `./startubuntu.sh`
