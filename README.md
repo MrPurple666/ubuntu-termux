@@ -30,7 +30,7 @@ This is a script that allows you to install Ubuntu in your termux application wi
 3. Install proot: `apt-get install proot -y`
 4. Install git: `apt-get install git -y`
 5. Go to HOME folder: `cd ~`
-6. Download script: `git clone https://github.com/MrPurple666/ubuntu-termux.git -b developement`
+6. Download script: `git clone https://github.com/MrPurple666/ubuntu-termux.git -b development`
 7. Go to script folder: `cd ubuntu-termux`
 8. Give execution permission: `chmod +x ubuntu.sh`
 9. Run the script: `./ubuntu.sh -y`
