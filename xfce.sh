@@ -20,5 +20,9 @@ mkdir -p ~/.vnc
 echo " "
 
 echo "Running browser patch"
-wget https://raw.githubusercontent.com/tuanpham-dev/termux-ubuntu/master/ubchromiumfix.sh && chmod +x ubchromiumfix.sh
+wget https://raw.githubusercontent.com/MrPurple666/ubuntu-termux/scripts/ubchromiumfix.sh && chmod +x ubchromiumfix.sh
 sudo ./ubchromiumfix.sh && rm -rf ubchromiumfix.sh
+
+echo "Running QT install"
+chmod +x qt.sh
+./qt.sh && rm -rf qt.sh
