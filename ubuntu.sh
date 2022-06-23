@@ -69,7 +69,7 @@ cd \$(dirname \$0)
 unset LD_PRELOAD
 command="proot"
 ## uncomment following line if you are having FATAL: kernel too old message.
-command+=" -k 5.17-rc1"
+command+=" -k 5.19-rc3"
 command+=" --link2symlink"
 command+=" -0"
 command+=" -r $directory"
