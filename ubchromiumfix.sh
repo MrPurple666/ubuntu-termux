@@ -2,7 +2,7 @@
 
 echo "Removing distribution provided chromium packages and dependencies..."
 apt purge chromium* chromium-browser* snapd -y -qq && apt autoremove -y -qq
-sudo apt purge chromium* chromium-browser* -y -qq && apt autoremove -y -qq
+apt purge chromium* chromium-browser* -y -qq && apt autoremove -y -qq
 apt update -qq; apt install software-properties-common gnupg --no-install-recommends -y -qq
 echo "Adding Debian repo for Chromium installation"
 
