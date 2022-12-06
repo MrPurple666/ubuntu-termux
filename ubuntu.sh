@@ -4,7 +4,7 @@ time1="$( date +"%r" )"
 
 install1 () {
 directory=ubuntu-fs
-UBUNTU_VERSION=kinetic
+UBUNTU_VERSION=lunar
 if [ -d "$directory" ];then
 first=1
 printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;227m[WARNING]:\e[0m \x1b[38;5;87m Skipping the download and the extraction\n"
@@ -69,7 +69,7 @@ cd \$(dirname \$0)
 unset LD_PRELOAD
 command="proot"
 ## uncomment following line if you are having FATAL: kernel too old message.
-command+=" -k 5.19-rc3"
+command+=" -k 6.1-rc8"
 command+=" --link2symlink"
 command+=" -0"
 command+=" -r $directory"
