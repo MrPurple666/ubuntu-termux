@@ -8,13 +8,11 @@ This is a script that allows you to install Ubuntu in your termux application wi
 
 ## Updates
 
-**• Updated to ubuntu 22.10**
+**• Updated to ubuntu 18.04.6**
+
+**• Just an old LTS but the most compatible with pretty much everything to see the latest version of lts look at the `LTS` branch**
 
 **• If you are looking for development versions see `developement` branch**
-
-## Important
-
-**• If you get an error message that says "Fatal Kernel too old" you have to uncomment the line that reads "command+=" -k 4.14.81"" (remove the # that is located in front of the line) in the "startubuntu.sh" file**
 
 ### Installation steps
 
