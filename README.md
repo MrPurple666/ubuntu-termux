@@ -15,7 +15,7 @@ This is a script that allows you to install Ubuntu in your termux application wi
 
 **• ⚠️ Builds from developement branch are automatically updated daily, look at the warning**
 
-**• Updated to ubuntu 23.04**
+**• Updated to ubuntu 23.10**
 
 ## Important
 
